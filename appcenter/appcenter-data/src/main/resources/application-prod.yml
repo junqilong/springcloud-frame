@@ -1,0 +1,9 @@
+server:
+  port: 8883
+spring:
+  application:
+    name: appcenter-data
+  data:
+    mongodb:
+      uri: mongodb://appcenter:appcenter!QAZ@10.128.208.160:27017/appcenter?AutoConnectRetry=true
+      database: appcenter

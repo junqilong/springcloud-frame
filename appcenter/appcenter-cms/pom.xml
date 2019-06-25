@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>appcenter</artifactId>
+        <groupId>com.tcl.mibc</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>appcenter-cms</artifactId>
+
+    <dependencies>
+        <!--工程common包引入-->
+        <dependency>
+               <groupId>com.tcl.mibc</groupId>
+               <artifactId>appcenter-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+
+        <!--数据包引入-->
+        <dependency>
+               <groupId>com.tcl.mibc</groupId>
+               <artifactId>appcenter-data</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+
+        <!--swagger2生成文档-->
+        <dependency>
+               <groupId>io.springfox</groupId>
+               <artifactId>springfox-swagger2</artifactId>
+               <version>2.2.2</version>
+        </dependency>
+        <dependency>
+               <groupId>io.springfox</groupId>
+               <artifactId>springfox-swagger-ui</artifactId>
+               <version>2.2.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

@@ -1,0 +1,11 @@
+server:
+  port: 9411
+zipkin:
+  storage:
+    type: elasticsearch
+    elasticsearch:
+      cluster: elasticsearch
+      hosts: http://10.128.208.53:9200
+      index: appcenter-zipkin
+      index-shards: 5
+      index-replicas: 1
